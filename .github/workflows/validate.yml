@@ -1,0 +1,24 @@
+name: Python reference checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  python-reference:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test reference edge cases
+        run: python -m unittest discover -s tests -v
+      - name: Reproduce synthetic data and Python reference outputs
+        run: |
+          python reference/generate_data.py
+          python reference/reference.py
+          git diff --exit-code -- data expected

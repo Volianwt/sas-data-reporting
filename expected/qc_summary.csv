@@ -1,0 +1,9 @@
+METRIC,VALUE
+input_subjects,60
+input_ae_rows,91
+exact_duplicate_ae_rows_removed,1
+unique_ae_rows,90
+safety_subjects,56
+safety_ae_rows,83
+nondosed_ae_rows_excluded,7
+safety_age_missing,2
