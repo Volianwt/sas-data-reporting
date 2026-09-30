@@ -2,14 +2,14 @@ NOTE: PROCEDURE PRINTTO used (Total process time):
       real time           0.00 seconds
       user cpu time       0.00 seconds
       system cpu time     0.00 seconds
-      memory              257.18k
-      OS Memory           19616.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        34  Switch Count  0
+      memory              256.46k
+      OS Memory           26020.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        70  Switch Count  0
                                                            The SAS System
 
       Page Faults                       0
-      Page Reclaims                     55
+      Page Reclaims                     17
       Page Swaps                        0
       Voluntary Context Switches        7
       Involuntary Context Switches      0
@@ -22,12 +22,12 @@ NOTE: DATA statement used (Total process time):
       real time           0.00 seconds
       user cpu time       0.00 seconds
       system cpu time     0.00 seconds
-      memory              365.15k
-      OS Memory           19616.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        35  Switch Count  0
+      memory              350.46k
+      OS Memory           26020.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        71  Switch Count  0
       Page Faults                       0
-      Page Reclaims                     45
+      Page Reclaims                     16
       Page Swaps                        0
       Voluntary Context Switches        10
       Involuntary Context Switches      0
@@ -36,26 +36,26 @@ NOTE: DATA statement used (Total process time):
       
 
 
-NOTE: The infile "<SAS_HOME>/sas-clinical-reporting-demo/data/subjects.csv" is:
-      Filename=<SAS_HOME>/sas-clinical-reporting-demo/data/subjects.csv,
+NOTE: The infile "<SAS_HOME>/sas-data-reporting/data/subjects.csv" is:
+      Filename=<SAS_HOME>/sas-data-reporting/data/subjects.csv,
       Owner Name=<SAS_USER>,Group Name=oda,
       Access Permission=-rw-r--r--,
-      Last Modified=30Sep2026:19:29:36,
+      Last Modified=30Sep2026:19:53:36,
       File Size (bytes)=1191
 
-NOTE: 1 record was read from the infile "<SAS_HOME>/sas-clinical-reporting-demo/data/subjects.csv".
+NOTE: 1 record was read from the infile "<SAS_HOME>/sas-data-reporting/data/subjects.csv".
       The minimum record length was 24.
       The maximum record length was 24.
 NOTE: DATA statement used (Total process time):
       real time           0.02 seconds
-      user cpu time       0.01 seconds
+      user cpu time       0.00 seconds
       system cpu time     0.00 seconds
-      memory              372.90k
-      OS Memory           20128.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        36  Switch Count  0
+      memory              374.59k
+      OS Memory           26020.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        72  Switch Count  0
       Page Faults                       0
-      Page Reclaims                     37
+      Page Reclaims                     14
       Page Swaps                        0
       Voluntary Context Switches        9
       Involuntary Context Switches      0
@@ -64,44 +64,44 @@ NOTE: DATA statement used (Total process time):
       
 
 
-NOTE: The infile "<SAS_HOME>/sas-clinical-reporting-demo/data/adverse_events.csv" is:
-      Filename=<SAS_HOME>/sas-clinical-reporting-demo/data/adverse_events.csv,
+NOTE: The infile "<SAS_HOME>/sas-data-reporting/data/adverse_events.csv" is:
+      Filename=<SAS_HOME>/sas-data-reporting/data/adverse_events.csv,
                                                            The SAS System
 
       Owner Name=<SAS_USER>,Group Name=oda,
       Access Permission=-rw-r--r--,
-      Last Modified=30Sep2026:19:29:37,
+      Last Modified=30Sep2026:19:53:37,
       File Size (bytes)=2089
 
-NOTE: 1 record was read from the infile "<SAS_HOME>/sas-clinical-reporting-demo/data/adverse_events.csv".
+NOTE: 1 record was read from the infile "<SAS_HOME>/sas-data-reporting/data/adverse_events.csv".
       The minimum record length was 28.
       The maximum record length was 28.
 NOTE: DATA statement used (Total process time):
       real time           0.00 seconds
       user cpu time       0.00 seconds
       system cpu time     0.00 seconds
-      memory              372.90k
-      OS Memory           20128.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        37  Switch Count  0
+      memory              374.59k
+      OS Memory           26020.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        73  Switch Count  0
       Page Faults                       0
       Page Reclaims                     18
       Page Swaps                        0
       Voluntary Context Switches        6
       Involuntary Context Switches      0
       Block Input Operations            0
-      Block Output Operations           0
+      Block Output Operations           8
       
 
 
-NOTE: The infile "<SAS_HOME>/sas-clinical-reporting-demo/data/subjects.csv" is:
-      Filename=<SAS_HOME>/sas-clinical-reporting-demo/data/subjects.csv,
+NOTE: The infile "<SAS_HOME>/sas-data-reporting/data/subjects.csv" is:
+      Filename=<SAS_HOME>/sas-data-reporting/data/subjects.csv,
       Owner Name=<SAS_USER>,Group Name=oda,
       Access Permission=-rw-r--r--,
-      Last Modified=30Sep2026:19:29:36,
+      Last Modified=30Sep2026:19:53:36,
       File Size (bytes)=1191
 
-NOTE: 60 records were read from the infile "<SAS_HOME>/sas-clinical-reporting-demo/data/subjects.csv".
+NOTE: 60 records were read from the infile "<SAS_HOME>/sas-data-reporting/data/subjects.csv".
       The minimum record length was 16.
       The maximum record length was 19.
 NOTE: Missing values were generated as a result of performing an operation on missing values.
@@ -111,46 +111,46 @@ NOTE: The data set WORK.SUBJECTS has 60 observations and 5 variables.
 NOTE: The data set WORK.SUBJECT_ERRORS has 0 observations and 2 variables.
 NOTE: DATA statement used (Total process time):
       real time           0.00 seconds
-      user cpu time       0.00 seconds
+      user cpu time       0.01 seconds
       system cpu time     0.00 seconds
-      memory              1065.81k
-      OS Memory           20648.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        38  Switch Count  4
+      memory              1064.53k
+      OS Memory           26540.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        74  Switch Count  4
       Page Faults                       0
-      Page Reclaims                     222
+      Page Reclaims                     142
       Page Swaps                        0
       Voluntary Context Switches        25
-      Involuntary Context Switches      1
+      Involuntary Context Switches      0
       Block Input Operations            0
-      Block Output Operations           536
+      Block Output Operations           528
       
 
                                                            The SAS System
 
 
-NOTE: The infile "<SAS_HOME>/sas-clinical-reporting-demo/data/adverse_events.csv" is:
-      Filename=<SAS_HOME>/sas-clinical-reporting-demo/data/adverse_events.csv,
+NOTE: The infile "<SAS_HOME>/sas-data-reporting/data/adverse_events.csv" is:
+      Filename=<SAS_HOME>/sas-data-reporting/data/adverse_events.csv,
       Owner Name=<SAS_USER>,Group Name=oda,
       Access Permission=-rw-r--r--,
-      Last Modified=30Sep2026:19:29:37,
+      Last Modified=30Sep2026:19:53:37,
       File Size (bytes)=2089
 
-NOTE: 91 records were read from the infile "<SAS_HOME>/sas-clinical-reporting-demo/data/adverse_events.csv".
+NOTE: 91 records were read from the infile "<SAS_HOME>/sas-data-reporting/data/adverse_events.csv".
       The minimum record length was 18.
       The maximum record length was 25.
 NOTE: The data set WORK.EVENTS_RAW has 91 observations and 4 variables.
 NOTE: The data set WORK.EVENT_ERRORS has 0 observations and 2 variables.
 NOTE: DATA statement used (Total process time):
       real time           0.00 seconds
-      user cpu time       0.01 seconds
+      user cpu time       0.00 seconds
       system cpu time     0.00 seconds
-      memory              1051.78k
-      OS Memory           20648.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        39  Switch Count  4
+      memory              1053.93k
+      OS Memory           26540.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        75  Switch Count  4
       Page Faults                       0
-      Page Reclaims                     143
+      Page Reclaims                     142
       Page Swaps                        0
       Voluntary Context Switches        25
       Involuntary Context Switches      0
@@ -167,14 +167,14 @@ NOTE: PROCEDURE SORT used (Total process time):
       real time           0.00 seconds
       user cpu time       0.00 seconds
       system cpu time     0.00 seconds
-      memory              1339.56k
-      OS Memory           21168.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        40  Switch Count  4
+      memory              1340.34k
+      OS Memory           27060.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        76  Switch Count  4
       Page Faults                       0
-      Page Reclaims                     232
+      Page Reclaims                     211
       Page Swaps                        0
-      Voluntary Context Switches        19
+      Voluntary Context Switches        20
       Involuntary Context Switches      1
       Block Input Operations            0
       Block Output Operations           536
@@ -194,15 +194,15 @@ NOTE: PROCEDURE SQL used (Total process time):
       real time           0.02 seconds
       user cpu time       0.02 seconds
       system cpu time     0.01 seconds
-      memory              6755.96k
-      OS Memory           26808.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        41  Switch Count  8
+      memory              6749.21k
+      OS Memory           32444.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        77  Switch Count  8
       Page Faults                       0
-      Page Reclaims                     1119
+      Page Reclaims                     886
       Page Swaps                        0
-      Voluntary Context Switches        44
-      Involuntary Context Switches      4
+      Voluntary Context Switches        43
+      Involuntary Context Switches      5
       Block Input Operations            0
       Block Output Operations           1080
       
@@ -214,14 +214,14 @@ NOTE: DATA statement used (Total process time):
       real time           0.00 seconds
       user cpu time       0.00 seconds
       system cpu time     0.00 seconds
-      memory              797.81k
-      OS Memory           21672.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        42  Switch Count  2
+      memory              799.62k
+      OS Memory           26540.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        78  Switch Count  2
       Page Faults                       0
       Page Reclaims                     112
       Page Swaps                        0
-      Voluntary Context Switches        9
+      Voluntary Context Switches        10
       Involuntary Context Switches      0
       Block Input Operations            0
       Block Output Operations           264
@@ -233,14 +233,14 @@ NOTE: DATA statement used (Total process time):
       real time           0.00 seconds
       user cpu time       0.00 seconds
       system cpu time     0.00 seconds
-      memory              516.93k
-      OS Memory           21412.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        43  Switch Count  2
+      memory              518.62k
+      OS Memory           26280.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        79  Switch Count  2
       Page Faults                       0
       Page Reclaims                     78
       Page Swaps                        0
-      Voluntary Context Switches        11
+      Voluntary Context Switches        16
       Involuntary Context Switches      0
       Block Input Operations            0
       Block Output Operations           264
@@ -252,17 +252,17 @@ NOTE: Table WORK.DENOMINATORS created, with 2 rows and 2 columns.
 
 NOTE: PROCEDURE SQL used (Total process time):
       real time           0.00 seconds
-      user cpu time       0.00 seconds
+      user cpu time       0.01 seconds
       system cpu time     0.00 seconds
       memory              5749.12k
-      OS Memory           26796.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        44  Switch Count  2
+      OS Memory           31664.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        80  Switch Count  2
       Page Faults                       0
-      Page Reclaims                     307
+      Page Reclaims                     267
       Page Swaps                        0
-      Voluntary Context Switches        14
-      Involuntary Context Switches      1
+      Voluntary Context Switches        19
+      Involuntary Context Switches      0
       Block Input Operations            0
       Block Output Operations           280
       
@@ -272,16 +272,16 @@ NOTE: There were 56 observations read from the data set WORK.SAFETY.
 NOTE: The data set WORK.AGE_STATS has 2 observations and 6 variables.
 NOTE: PROCEDURE MEANS used (Total process time):
       real time           0.00 seconds
-      user cpu time       0.01 seconds
-      system cpu time     0.01 seconds
-      memory              8996.62k
-      OS Memory           30396.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        45  Switch Count  3
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              8986.75k
+      OS Memory           34752.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        81  Switch Count  3
       Page Faults                       0
-      Page Reclaims                     2239
+      Page Reclaims                     2026
       Page Swaps                        0
-      Voluntary Context Switches        25
+      Voluntary Context Switches        22
       Involuntary Context Switches      0
       Block Input Operations            0
       Block Output Operations           264
@@ -292,16 +292,16 @@ NOTE: There were 56 observations read from the data set WORK.SAFETY.
 NOTE: The data set WORK.SEX_COUNTS has 4 observations and 4 variables.
 NOTE: PROCEDURE FREQ used (Total process time):
       real time           0.00 seconds
-      user cpu time       0.00 seconds
+      user cpu time       0.01 seconds
       system cpu time     0.00 seconds
-      memory              1952.31k
-      OS Memory           23992.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        46  Switch Count  10
+      memory              1952.75k
+      OS Memory           28348.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        82  Switch Count  10
       Page Faults                       0
-      Page Reclaims                     401
+      Page Reclaims                     375
       Page Swaps                        0
-      Voluntary Context Switches        57
+      Voluntary Context Switches        47
       Involuntary Context Switches      0
       Block Input Operations            0
       Block Output Operations           1320
@@ -316,13 +316,13 @@ NOTE: Table WORK.SAFETY_EVENTS created, with 83 rows and 5 columns.
 NOTE: PROCEDURE SQL used (Total process time):
       real time           0.00 seconds
       user cpu time       0.00 seconds
-      system cpu time     0.00 seconds
-      memory              6199.46k
-      OS Memory           28336.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        47  Switch Count  4
+      system cpu time     0.01 seconds
+      memory              6196.15k
+      OS Memory           32692.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        83  Switch Count  4
       Page Faults                       0
-      Page Reclaims                     505
+      Page Reclaims                     523
       Page Swaps                        0
       Voluntary Context Switches        21
       Involuntary Context Switches      1
@@ -338,14 +338,14 @@ NOTE: PROCEDURE SORT used (Total process time):
       real time           0.00 seconds
       user cpu time       0.00 seconds
       system cpu time     0.00 seconds
-      memory              1075.15k
-      OS Memory           23212.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        48  Switch Count  2
+      memory              1074.81k
+      OS Memory           27312.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        84  Switch Count  2
       Page Faults                       0
-      Page Reclaims                     182
+      Page Reclaims                     181
       Page Swaps                        0
-      Voluntary Context Switches        10
+      Voluntary Context Switches        11
       Involuntary Context Switches      0
       Block Input Operations            0
       Block Output Operations           280
@@ -355,16 +355,16 @@ NOTE: PROCEDURE SORT used (Total process time):
 NOTE: The data set WORK.CATEGORIES has 5 observations and 1 variables.
 NOTE: DATA statement used (Total process time):
       real time           0.00 seconds
-      user cpu time       0.01 seconds
+      user cpu time       0.00 seconds
       system cpu time     0.00 seconds
-      memory              521.00k
-      OS Memory           22692.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        49  Switch Count  2
+      memory              522.09k
+      OS Memory           26792.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        85  Switch Count  2
       Page Faults                       0
       Page Reclaims                     78
       Page Swaps                        0
-      Voluntary Context Switches        10
+      Voluntary Context Switches        11
       Involuntary Context Switches      0
                                                            The SAS System
 
@@ -380,16 +380,16 @@ NOTE: Table WORK.AE_INCIDENCE created, with 10 rows and 5 columns.
 NOTE: PROCEDURE SQL used (Total process time):
       real time           0.02 seconds
       user cpu time       0.01 seconds
-      system cpu time     0.01 seconds
-      memory              6204.46k
-      OS Memory           29096.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        50  Switch Count  4
+      system cpu time     0.00 seconds
+      memory              6203.43k
+      OS Memory           32436.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        86  Switch Count  4
       Page Faults                       0
-      Page Reclaims                     743
+      Page Reclaims                     719
       Page Swaps                        0
-      Voluntary Context Switches        37
-      Involuntary Context Switches      2
+      Voluntary Context Switches        35
+      Involuntary Context Switches      1
       Block Input Operations            0
       Block Output Operations           560
       
@@ -401,13 +401,13 @@ NOTE: DATA statement used (Total process time):
       user cpu time       0.00 seconds
       system cpu time     0.00 seconds
       memory              531.25k
-      OS Memory           23972.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        51  Switch Count  2
+      OS Memory           27048.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        87  Switch Count  2
       Page Faults                       0
       Page Reclaims                     78
       Page Swaps                        0
-      Voluntary Context Switches        11
+      Voluntary Context Switches        9
       Involuntary Context Switches      0
       Block Input Operations            0
       Block Output Operations           264
@@ -429,7 +429,7 @@ WORK.PARMS.PARMS.SLIST.
                                                            The SAS System
 
 411            %let _EFIREC_ = 0;     /* clear export record count macro variable */
-412            file '<SAS_HOME>/sas-clinical-reporting-demo/outputs/denominators.csv' delimiter=',' DSD DROPOVER lrecl=32767;
+412            file '<SAS_HOME>/sas-data-reporting/outputs/denominators.csv' delimiter=',' DSD DROPOVER lrecl=32767;
 413            if _n_ = 1 then        /* write column names or labels */
 414             do;
 415               put
@@ -451,26 +451,26 @@ WORK.PARMS.PARMS.SLIST.
 431            if EFIEOD then call symputx('_EFIREC_',EFIOUT);
 432            run;
 
-NOTE: The file '<SAS_HOME>/sas-clinical-reporting-demo/outputs/denominators.csv' is:
-      Filename=<SAS_HOME>/sas-clinical-reporting-demo/outputs/denominators.csv,
+NOTE: The file '<SAS_HOME>/sas-data-reporting/outputs/denominators.csv' is:
+      Filename=<SAS_HOME>/sas-data-reporting/outputs/denominators.csv,
       Owner Name=<SAS_USER>,Group Name=oda,
       Access Permission=-rw-r--r--,
-      Last Modified=30Sep2026:19:29:37
+      Last Modified=30Sep2026:19:53:37
 
-NOTE: 3 records were written to the file '<SAS_HOME>/sas-clinical-reporting-demo/outputs/denominators.csv'.
+NOTE: 3 records were written to the file '<SAS_HOME>/sas-data-reporting/outputs/denominators.csv'.
       The minimum record length was 5.
       The maximum record length was 10.
 NOTE: There were 2 observations read from the data set WORK.DENOMINATORS.
 NOTE: DATA statement used (Total process time):
       real time           0.00 seconds
-      user cpu time       0.00 seconds
+      user cpu time       0.01 seconds
       system cpu time     0.00 seconds
-      memory              10250.04k
-      OS Memory           31260.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        52  Switch Count  0
+      memory              9031.18k
+      OS Memory           32028.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        88  Switch Count  0
       Page Faults                       0
-      Page Reclaims                     105
+      Page Reclaims                     77
       Page Swaps                        0
       Voluntary Context Switches        9
       Involuntary Context Switches      0
@@ -478,27 +478,27 @@ NOTE: DATA statement used (Total process time):
       Block Output Operations           8
       
 
-2 records created in <SAS_HOME>/sas-clinical-reporting-demo/outputs/denominators.csv from DENOMINATORS.
+2 records created in <SAS_HOME>/sas-data-reporting/outputs/denominators.csv from DENOMINATORS.
   
   
-NOTE: "<SAS_HOME>/sas-clinical-reporting-demo/outputs/denominators.csv" file was successfully created.
+NOTE: "<SAS_HOME>/sas-data-reporting/outputs/denominators.csv" file was successfully created.
 NOTE: PROCEDURE EXPORT used (Total process time):
-      real time           0.04 seconds
-      user cpu time       0.03 seconds
+      real time           0.03 seconds
+      user cpu time       0.02 seconds
       system cpu time     0.01 seconds
                                                            The SAS System
 
-      memory              10260.70k
-      OS Memory           31776.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        52  Switch Count  8
+      memory              9040.21k
+      OS Memory           32288.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        88  Switch Count  8
       Page Faults                       0
-      Page Reclaims                     2124
+      Page Reclaims                     983
       Page Swaps                        0
-      Voluntary Context Switches        89
-      Involuntary Context Switches      1
+      Voluntary Context Switches        63
+      Involuntary Context Switches      2
       Block Input Operations            0
-      Block Output Operations           96
+      Block Output Operations           64
       
 
 
@@ -515,7 +515,7 @@ WORK.PARMS.PARMS.SLIST.
 441            data _null_;
 442            %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
 443            %let _EFIREC_ = 0;     /* clear export record count macro variable */
-444            file '<SAS_HOME>/sas-clinical-reporting-demo/outputs/demographics.csv' delimiter=',' DSD DROPOVER lrecl=32767;
+444            file '<SAS_HOME>/sas-data-reporting/outputs/demographics.csv' delimiter=',' DSD DROPOVER lrecl=32767;
 445            if _n_ = 1 then        /* write column names or labels */
 446             do;
 447               put
@@ -579,54 +579,54 @@ WORK.PARMS.PARMS.SLIST.
 503            if EFIEOD then call symputx('_EFIREC_',EFIOUT);
 504            run;
 
-NOTE: The file '<SAS_HOME>/sas-clinical-reporting-demo/outputs/demographics.csv' is:
-      Filename=<SAS_HOME>/sas-clinical-reporting-demo/outputs/demographics.csv,
+NOTE: The file '<SAS_HOME>/sas-data-reporting/outputs/demographics.csv' is:
+      Filename=<SAS_HOME>/sas-data-reporting/outputs/demographics.csv,
       Owner Name=<SAS_USER>,Group Name=oda,
       Access Permission=-rw-r--r--,
-      Last Modified=30Sep2026:19:29:37
+      Last Modified=30Sep2026:19:53:37
 
-NOTE: 3 records were written to the file '<SAS_HOME>/sas-clinical-reporting-demo/outputs/demographics.csv'.
+NOTE: 3 records were written to the file '<SAS_HOME>/sas-data-reporting/outputs/demographics.csv'.
       The minimum record length was 58.
       The maximum record length was 91.
 NOTE: There were 2 observations read from the data set WORK.DEMOGRAPHICS.
 NOTE: DATA statement used (Total process time):
       real time           0.00 seconds
-      user cpu time       0.00 seconds
+      user cpu time       0.01 seconds
       system cpu time     0.00 seconds
-      memory              9196.46k
-      OS Memory           31260.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        53  Switch Count  0
+      memory              9079.68k
+      OS Memory           32028.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        89  Switch Count  0
       Page Faults                       0
-      Page Reclaims                     104
+      Page Reclaims                     80
       Page Swaps                        0
       Voluntary Context Switches        9
       Involuntary Context Switches      0
       Block Input Operations            0
-      Block Output Operations           8
+      Block Output Operations           16
       
 
                                                            The SAS System
 
-2 records created in <SAS_HOME>/sas-clinical-reporting-demo/outputs/demographics.csv from DEMOGRAPHICS.
+2 records created in <SAS_HOME>/sas-data-reporting/outputs/demographics.csv from DEMOGRAPHICS.
   
   
-NOTE: "<SAS_HOME>/sas-clinical-reporting-demo/outputs/demographics.csv" file was successfully created.
+NOTE: "<SAS_HOME>/sas-data-reporting/outputs/demographics.csv" file was successfully created.
 NOTE: PROCEDURE EXPORT used (Total process time):
       real time           0.03 seconds
       user cpu time       0.02 seconds
       system cpu time     0.00 seconds
-      memory              9196.46k
-      OS Memory           31520.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        53  Switch Count  7
+      memory              9079.68k
+      OS Memory           32288.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        89  Switch Count  7
       Page Faults                       0
-      Page Reclaims                     1166
+      Page Reclaims                     1053
       Page Swaps                        0
       Voluntary Context Switches        47
-      Involuntary Context Switches      2
+      Involuntary Context Switches      10
       Block Input Operations            0
-      Block Output Operations           48
+      Block Output Operations           40
       
 
 
@@ -643,7 +643,7 @@ WORK.PARMS.PARMS.SLIST.
 513            data _null_;
 514            %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
 515            %let _EFIREC_ = 0;     /* clear export record count macro variable */
-516            file '<SAS_HOME>/sas-clinical-reporting-demo/outputs/ae_incidence.csv' delimiter=',' DSD DROPOVER lrecl=32767;
+516            file '<SAS_HOME>/sas-data-reporting/outputs/ae_incidence.csv' delimiter=',' DSD DROPOVER lrecl=32767;
 517            if _n_ = 1 then        /* write column names or labels */
 518             do;
 519               put
@@ -679,13 +679,13 @@ WORK.PARMS.PARMS.SLIST.
 547            if EFIEOD then call symputx('_EFIREC_',EFIOUT);
 548            run;
 
-NOTE: The file '<SAS_HOME>/sas-clinical-reporting-demo/outputs/ae_incidence.csv' is:
-      Filename=<SAS_HOME>/sas-clinical-reporting-demo/outputs/ae_incidence.csv,
+NOTE: The file '<SAS_HOME>/sas-data-reporting/outputs/ae_incidence.csv' is:
+      Filename=<SAS_HOME>/sas-data-reporting/outputs/ae_incidence.csv,
       Owner Name=<SAS_USER>,Group Name=oda,
       Access Permission=-rw-r--r--,
-      Last Modified=30Sep2026:19:29:37
+      Last Modified=30Sep2026:19:53:37
 
-NOTE: 11 records were written to the file '<SAS_HOME>/sas-clinical-reporting-demo/outputs/ae_incidence.csv'.
+NOTE: 11 records were written to the file '<SAS_HOME>/sas-data-reporting/outputs/ae_incidence.csv'.
       The minimum record length was 27.
       The maximum record length was 31.
 NOTE: There were 10 observations read from the data set WORK.AE_INCIDENCE.
@@ -693,38 +693,38 @@ NOTE: DATA statement used (Total process time):
       real time           0.00 seconds
       user cpu time       0.00 seconds
       system cpu time     0.00 seconds
-      memory              9059.34k
-      OS Memory           31260.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        54  Switch Count  0
+      memory              9044.71k
+      OS Memory           32028.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        90  Switch Count  0
       Page Faults                       0
-      Page Reclaims                     72
+      Page Reclaims                     66
       Page Swaps                        0
       Voluntary Context Switches        9
       Involuntary Context Switches      0
       Block Input Operations            0
-      Block Output Operations           8
+      Block Output Operations           16
       
 
-10 records created in <SAS_HOME>/sas-clinical-reporting-demo/outputs/ae_incidence.csv from AE_INCIDENCE.
+10 records created in <SAS_HOME>/sas-data-reporting/outputs/ae_incidence.csv from AE_INCIDENCE.
   
   
-NOTE: "<SAS_HOME>/sas-clinical-reporting-demo/outputs/ae_incidence.csv" file was successfully created.
+NOTE: "<SAS_HOME>/sas-data-reporting/outputs/ae_incidence.csv" file was successfully created.
 NOTE: PROCEDURE EXPORT used (Total process time):
       real time           0.02 seconds
       user cpu time       0.02 seconds
-      system cpu time     0.00 seconds
-      memory              9059.34k
-      OS Memory           31520.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        54  Switch Count  7
+      system cpu time     0.01 seconds
+      memory              9044.71k
+      OS Memory           32288.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        90  Switch Count  7
       Page Faults                       0
-      Page Reclaims                     923
+      Page Reclaims                     985
       Page Swaps                        0
-      Voluntary Context Switches        46
-      Involuntary Context Switches      0
+      Voluntary Context Switches        47
+      Involuntary Context Switches      2
       Block Input Operations            0
-      Block Output Operations           40
+      Block Output Operations           32
       
                                                            The SAS System
 
@@ -743,7 +743,7 @@ WORK.PARMS.PARMS.SLIST.
 557            data _null_;
 558            %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
 559            %let _EFIREC_ = 0;     /* clear export record count macro variable */
-560            file '<SAS_HOME>/sas-clinical-reporting-demo/outputs/qc_summary.csv' delimiter=',' DSD DROPOVER lrecl=32767;
+560            file '<SAS_HOME>/sas-data-reporting/outputs/qc_summary.csv' delimiter=',' DSD DROPOVER lrecl=32767;
 561            if _n_ = 1 then        /* write column names or labels */
 562             do;
 563               put
@@ -765,13 +765,13 @@ WORK.PARMS.PARMS.SLIST.
 579            if EFIEOD then call symputx('_EFIREC_',EFIOUT);
 580            run;
 
-NOTE: The file '<SAS_HOME>/sas-clinical-reporting-demo/outputs/qc_summary.csv' is:
-      Filename=<SAS_HOME>/sas-clinical-reporting-demo/outputs/qc_summary.csv,
+NOTE: The file '<SAS_HOME>/sas-data-reporting/outputs/qc_summary.csv' is:
+      Filename=<SAS_HOME>/sas-data-reporting/outputs/qc_summary.csv,
       Owner Name=<SAS_USER>,Group Name=oda,
       Access Permission=-rw-r--r--,
-      Last Modified=30Sep2026:19:29:37
+      Last Modified=30Sep2026:19:53:37
 
-NOTE: 9 records were written to the file '<SAS_HOME>/sas-clinical-reporting-demo/outputs/qc_summary.csv'.
+NOTE: 9 records were written to the file '<SAS_HOME>/sas-data-reporting/outputs/qc_summary.csv'.
       The minimum record length was 12.
       The maximum record length was 33.
 NOTE: There were 8 observations read from the data set WORK.QC_SUMMARY.
@@ -779,38 +779,38 @@ NOTE: DATA statement used (Total process time):
       real time           0.00 seconds
       user cpu time       0.00 seconds
       system cpu time     0.00 seconds
-      memory              9051.78k
-      OS Memory           31260.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        55  Switch Count  0
+      memory              9035.31k
+      OS Memory           32028.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        91  Switch Count  0
       Page Faults                       0
-      Page Reclaims                     74
+      Page Reclaims                     70
       Page Swaps                        0
                                                            The SAS System
 
       Voluntary Context Switches        9
       Involuntary Context Switches      0
       Block Input Operations            0
-      Block Output Operations           8
+      Block Output Operations           16
       
 
-8 records created in <SAS_HOME>/sas-clinical-reporting-demo/outputs/qc_summary.csv from QC_SUMMARY.
+8 records created in <SAS_HOME>/sas-data-reporting/outputs/qc_summary.csv from QC_SUMMARY.
   
   
-NOTE: "<SAS_HOME>/sas-clinical-reporting-demo/outputs/qc_summary.csv" file was successfully created.
+NOTE: "<SAS_HOME>/sas-data-reporting/outputs/qc_summary.csv" file was successfully created.
 NOTE: PROCEDURE EXPORT used (Total process time):
       real time           0.02 seconds
       user cpu time       0.02 seconds
       system cpu time     0.00 seconds
-      memory              9054.46k
-      OS Memory           31520.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        55  Switch Count  7
+      memory              9038.65k
+      OS Memory           32288.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        91  Switch Count  7
       Page Faults                       0
-      Page Reclaims                     942
+      Page Reclaims                     1003
       Page Swaps                        0
       Voluntary Context Switches        47
-      Involuntary Context Switches      0
+      Involuntary Context Switches      1
       Block Input Operations            0
       Block Output Operations           32
       
@@ -821,18 +821,18 @@ NOTE: There were 2 observations read from the data set WORK.DEMOGRAPHICS.
 NOTE: PROCEDURE REPORT used (Total process time):
       real time           0.01 seconds
       user cpu time       0.02 seconds
-      system cpu time     0.01 seconds
-      memory              8596.81k
-      OS Memory           37052.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        56  Switch Count  0
+      system cpu time     0.00 seconds
+      memory              8646.06k
+      OS Memory           37308.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        92  Switch Count  0
       Page Faults                       0
-      Page Reclaims                     2150
+      Page Reclaims                     2045
       Page Swaps                        0
-      Voluntary Context Switches        9
-      Involuntary Context Switches      0
+      Voluntary Context Switches        6
+      Involuntary Context Switches      1
       Block Input Operations            0
-      Block Output Operations           80
+      Block Output Operations           72
       
 
 
@@ -841,17 +841,17 @@ NOTE: PROCEDURE REPORT used (Total process time):
       real time           0.01 seconds
       user cpu time       0.01 seconds
       system cpu time     0.00 seconds
-      memory              7869.25k
-      OS Memory           37820.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        57  Switch Count  1
+      memory              7882.12k
+      OS Memory           38076.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        93  Switch Count  1
       Page Faults                       0
                                                            The SAS System
 
-      Page Reclaims                     1616
+      Page Reclaims                     1618
       Page Swaps                        0
-      Voluntary Context Switches        8
-      Involuntary Context Switches      1
+      Voluntary Context Switches        11
+      Involuntary Context Switches      0
       Block Input Operations            0
       Block Output Operations           24
       
@@ -861,45 +861,45 @@ NOTE: There were 8 observations read from the data set WORK.QC_SUMMARY.
 NOTE: PROCEDURE REPORT used (Total process time):
       real time           0.01 seconds
       user cpu time       0.01 seconds
-      system cpu time     0.01 seconds
-      memory              7563.84k
-      OS Memory           37820.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        58  Switch Count  1
+      system cpu time     0.00 seconds
+      memory              7570.23k
+      OS Memory           37564.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        94  Switch Count  1
       Page Faults                       0
-      Page Reclaims                     1509
+      Page Reclaims                     1473
       Page Swaps                        0
-      Voluntary Context Switches        12
+      Voluntary Context Switches        9
       Involuntary Context Switches      0
       Block Input Operations            0
       Block Output Operations           0
       
 
 
-NOTE: The file "<SAS_HOME>/sas-clinical-reporting-demo/outputs/RUN_COMPLETED.txt" is:
-      Filename=<SAS_HOME>/sas-clinical-reporting-demo/outputs/RUN_COMPLETED.txt,
+NOTE: The file "<SAS_HOME>/sas-data-reporting/outputs/RUN_COMPLETED.txt" is:
+      Filename=<SAS_HOME>/sas-data-reporting/outputs/RUN_COMPLETED.txt,
       Owner Name=<SAS_USER>,Group Name=oda,
       Access Permission=-rw-r--r--,
-      Last Modified=30Sep2026:19:29:37
+      Last Modified=30Sep2026:19:53:37
 
-NOTE: 1 record was written to the file "<SAS_HOME>/sas-clinical-reporting-demo/outputs/RUN_COMPLETED.txt".
+NOTE: 1 record was written to the file "<SAS_HOME>/sas-data-reporting/outputs/RUN_COMPLETED.txt".
       The minimum record length was 85.
       The maximum record length was 85.
 NOTE: DATA statement used (Total process time):
       real time           0.00 seconds
-      user cpu time       0.00 seconds
+      user cpu time       0.01 seconds
       system cpu time     0.00 seconds
-      memory              315.68k
-      OS Memory           28068.00k
-      Timestamp           09/30/2026 11:29:37 PM
-      Step Count                        59  Switch Count  0
+      memory              315.75k
+      OS Memory           27300.00k
+      Timestamp           09/30/2026 11:53:37 PM
+      Step Count                        95  Switch Count  0
       Page Faults                       0
-      Page Reclaims                     15
+      Page Reclaims                     14
       Page Swaps                        0
       Voluntary Context Switches        9
-      Involuntary Context Switches      0
+      Involuntary Context Switches      1
       Block Input Operations            0
-      Block Output Operations           8
+      Block Output Operations           16
       
 
 NOTE: DEMO COMPLETED. Review outputs/sas_run.log and compare CSVs with the Python reference.

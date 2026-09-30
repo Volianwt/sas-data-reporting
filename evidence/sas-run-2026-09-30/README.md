@@ -3,7 +3,7 @@
 ## Run provenance
 
 - Environment: SAS Studio on SAS OnDemand for Academics; the HTML report identifies SAS Software Version 9.4.
-- Program and inputs: source commit `76d5b05fbfdcb76ffc93ff44914105b6f6915dcf`.
+- Program and inputs: source commit `983ecb1547ee2a96e23583f6929cbe04bc6e6f2d`.
 - Execution: the public bootstrap was run in an authenticated SAS Studio session. After completion, the seven files below were downloaded from the SAS server's `outputs/` folder.
 - The CSV files, HTML report, and completion marker are preserved byte for byte from the downloads.
 - Only account identifiers in `sas_run.log` were redacted: the server home path became `<SAS_HOME>` and the owner name became `<SAS_USER>`. Procedure diagnostics, counts, timings, and report values are unchanged.
@@ -17,9 +17,9 @@
 | Captured SAS program log | 0 ERROR diagnostics; 0 WARNING diagnostics |
 | Four SAS-exported CSVs vs independent Python reference | PASS |
 | Python reference edge-case tests | 18 passed |
-| Subjects | 60 input; 56 dosed; 28 dosed per arm |
-| Event records | 91 input; 1 exact duplicate removed; 90 unique; 83 in the safety population |
-| Missing ages in the safety population | 2; excluded from age statistics, retained in population counts |
+| Participants | 60 input; 56 included; 28 included per group |
+| Event records | 91 input; 1 exact duplicate removed; 90 unique; 83 included in reporting |
+| Missing ages among included participants | 2; excluded from age statistics, retained in participant counts |
 
 The comparison checks column order, row counts, text values, and numeric values within an absolute tolerance of 0.00011. The Python tests cover the independent reference implementation, not the SAS interpreter.
 
