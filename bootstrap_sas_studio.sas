@@ -1,8 +1,8 @@
-/* Optional online setup: paste into SAS Studio and run after repo is public.
+/* Optional online setup: paste into SAS Studio and run.
    The normal run.sas has no network dependency. Only public synthetic files
    are downloaded. Change project_root if your SAS home folder differs. */
-%let project_root=%sysget(HOME)/sas-clinical-reporting-demo;
-%let base_url=https://raw.githubusercontent.com/Volianwt/sas-clinical-reporting-demo/main;
+%let project_root=%sysget(HOME)/sas-data-reporting;
+%let base_url=https://raw.githubusercontent.com/Volianwt/sas-data-reporting/main;
 options dlcreatedir;
 libname setup "&project_root";
 libname setup "&project_root./data";

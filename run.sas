@@ -1,9 +1,9 @@
-/* Fictional study reporting demo | SAS 9.4 / SAS Studio
+/* SAS data analysis and reporting | SAS 9.4 / SAS Studio
    Edit this path before running, unless bootstrap_sas_studio.sas set it. */
 %macro set_root;
   %if not %symexist(project_root) %then %do;
     %global project_root;
-    %let project_root=%sysget(HOME)/sas-clinical-reporting-demo;
+    %let project_root=%sysget(HOME)/sas-data-reporting;
   %end;
 %mend;
 %set_root;
@@ -257,8 +257,8 @@ proc printto log=runlog new; run;
   %export_csv(qc_summary);
 
   ods html path="&project_root./outputs" (url=none) file='study_summary.html' style=HTMLBlue;
-  title 'Fictional Study: Safety Population Demographics';
-  footnote 'Simulated data for programming practice; not a clinical analysis or CDISC submission.';
+  title 'Participant Demographics';
+  footnote 'Source: synthetic participant and event records.';
   proc report data=demographics nowd;
     columns ARM N AGE_N AGE_MISSING AGE_MEAN AGE_SD AGE_MIN AGE_MAX FEMALE_N MALE_N;
     define ARM / display 'Arm'; define N / display 'Dosed N';
@@ -268,7 +268,7 @@ proc printto log=runlog new; run;
     define AGE_MIN / display 'Age min'; define AGE_MAX / display 'Age max';
     define FEMALE_N / display 'Female n'; define MALE_N / display 'Male n';
   run;
-  title 'Subjects with Adverse Events';
+  title 'Event Counts by Category';
   proc report data=ae_incidence nowd;
     columns ARM CATEGORY SUBJECT_N N PCT;
     define ARM / display 'Arm'; define CATEGORY / display 'Event';
