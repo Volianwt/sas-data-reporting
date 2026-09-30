@@ -1,0 +1,11 @@
+ARM,CATEGORY,SUBJECT_N,N,PCT
+Active,Any event,28,28,100.0000
+Active,Dizziness,10,28,35.7143
+Active,Fatigue,14,28,50.0000
+Active,Headache,14,28,50.0000
+Active,Nausea,10,28,35.7143
+Placebo,Any event,14,28,50.0000
+Placebo,Dizziness,12,28,42.8571
+Placebo,Fatigue,2,28,7.1429
+Placebo,Headache,8,28,28.5714
+Placebo,Nausea,4,28,14.2857

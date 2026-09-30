@@ -33,7 +33,7 @@ There are 91 source event rows: one intentional exact duplicate is removed, leav
 4. Run the complete program. Check `outputs/sas_run.log` for errors and confirm `RUN_COMPLETED.txt` exists.
 5. Open `outputs/study_summary.html` and download the four CSV files for comparison below.
 
-Alternatively, after the repository is public, paste [`bootstrap_sas_studio.sas`](bootstrap_sas_studio.sas) into SAS Studio. It creates the folders, downloads the public inputs and program, and runs it. This optional setup requires network access; the main `run.sas` works with uploaded files.
+Alternatively, paste [`bootstrap_sas_studio.sas`](bootstrap_sas_studio.sas) into SAS Studio. It creates the folders, downloads the public inputs and program, and runs it. This optional setup requires network access; the main `run.sas` works with uploaded files.
 
 SAS's official [local-data upload guide](https://support.sas.com/content/dam/SAS/support/en/products-solutions/ondemand/UploadingLocalDataDec2023.pdf) explains the server folder and upload workflow. [SAS OnDemand for Academics](https://support.sas.com/en/software/ondemand-for-academics-support.html) provides access for independent learners.
 
@@ -63,6 +63,8 @@ python3 reference/reference.py --compare outputs
 
 The comparison checks column order, row counts, values, and an absolute numeric tolerance of 0.00011 for rounded exports. It does not inspect the SAS log or prove which tool generated a file. The tests exercise the Python reference, including repeated terms, exact/conflicting duplicates, missing age, unknown IDs, invalid categories, zero-event arms, and invalid or empty denominators. They do not execute the SAS language.
 
-**Execution status at initial creation:** the Python reference and its 18 tests pass; SAS execution is pending. Record the actual SAS run and CSV comparison before describing the complete SAS pipeline as validated.
+**Verified run — September 30, 2026:** the program ran in SAS Studio on SAS OnDemand for Academics (SAS 9.4). All four downloaded SAS CSV files matched the independent Python reference. The captured program log contains no `ERROR:` or `WARNING:` diagnostics, and the completion marker was produced. The Python reference's 18 tests also pass. See the [run evidence and verification record](evidence/sas-run-2026-09-30/README.md), [SAS HTML report](evidence/sas-run-2026-09-30/study_summary.html), and [SAS log with account paths redacted](evidence/sas-run-2026-09-30/sas_run.log).
+
+GitHub Actions runs the Python reference checks; it does not run SAS. The saved SAS evidence documents this specific run, rather than certifying future changes or production use.
 
 To recreate the exact synthetic inputs, run `python3 reference/generate_data.py`. See [`docs/walkthrough.md`](docs/walkthrough.md) for a short explanation of the reporting decisions and useful exercises.
